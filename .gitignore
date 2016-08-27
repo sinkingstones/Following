@@ -1,0 +1,4 @@
+node_modules/
+bulid/
+npm-debug.log
+.DS_Store
