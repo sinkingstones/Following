@@ -10,11 +10,18 @@ module.exports = {
         path.resolve(ROOT_PATH, 'app', 'src', 'index')
     ],
     output: {
-        path: path.resolve(ROOT_PATH, 'app', 'build'),
+        path: process.env.NODE_ENV === 'production' ? path.resolve(ROOT_PATH, 'app', 'dist') : path.resolve(ROOT_PATH, 'app', 'build'),
         publicPath: '/',
         filename: 'bundle.js'
     },
     module: {
+        preLoaders: [
+            {
+                test: /\.jsx?$/,
+                loaders: process.env.NODE_ENV === 'production' ? [] : ['eslint'],
+                include: path.resolve(ROOT_PATH, 'app')
+            }
+        ],
         loaders: [{
             test: /\.jsx?$/,
             exclude: /node_modules/,
@@ -22,13 +29,16 @@ module.exports = {
             query: {
                 presets: ['es2015', 'react']
             }
+        }, {
+            test: /\.scss$/,
+            loaders: ['style', 'css', 'sass']
         }]
     },
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
     devServer: {
-        contentBase: path.resolve(ROOT_PATH, 'app', 'build'),
+        contentBase: path.resolve(ROOT_PATH, 'app', 'dist'),
         historyApiFallback: true,
         hot: true,
         inline: true,
