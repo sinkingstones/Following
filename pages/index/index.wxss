@@ -1,0 +1,23 @@
+/**index.wxss**/
+.series {
+    margin-bottom: 7px;
+    height: 150px;
+    color: #000;
+}
+
+.name {
+    position: relative;
+    left: 20px;
+    top: 120px;
+}
+
+.after {
+    position: relative; 
+    left: 220px;
+}
+
+.chapter {
+    position: relative;
+    left: 170px;
+    top: 120px;
+}

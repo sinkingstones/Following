@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discover/discover",
+    "pages/me/me"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "NextSeries",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#DDDDDD",
+    "selectedColor": "#3CC51F",
+    "backgroundColor": "#FFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/tabbar/index.png",
+        "selectedIconPath": "image/tabbar/index-selected.png",
+        "text": "预告"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/tabbar/list.png",
+        "selectedIconPath": "image/tabbar/list-selected.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "image/tabbar/discover.png",
+        "selectedIconPath": "image/tabbar/discover-selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "image/tabbar/me.png",
+        "selectedIconPath": "image/tabbar/me-selected.png",
+        "text": "我"
+      }
+    ]
+  },
+  "debug": true
+}
