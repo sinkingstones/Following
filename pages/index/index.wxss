@@ -1,23 +1,40 @@
 /**index.wxss**/
+
+.flex-wrp {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 45%;
+  /*height: 150px;*/
+  margin: 7px;
+}
+
 .series {
-    margin-bottom: 7px;
-    height: 150px;
-    color: #000;
+  height: 150px;
+  color: #000;
+  background-color:#ff0; 
 }
 
 .name {
-    position: relative;
-    left: 20px;
-    top: 120px;
+  position: relative;
+  left: 20px;
+  top: 120px;
 }
 
 .after {
-    position: relative; 
-    left: 220px;
+  position: relative;
+  left: 220px;
 }
 
 .chapter {
-    position: relative;
-    left: 170px;
-    top: 120px;
+  position: relative;
+  left: 170px;
+  top: 120px;
 }
+
