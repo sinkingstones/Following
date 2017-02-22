@@ -6,55 +6,55 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     array: [{
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'
 
     }, {
-      name: '权利的游戏',
+      name: '权力的游戏',
       after: '1',
       chapter: 'S01E02',
       src: '/image/cover.jpg'

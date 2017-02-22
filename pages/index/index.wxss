@@ -1,5 +1,9 @@
 /**index.wxss**/
 
+.page {
+  background-color: #f0f3f5;
+}
+
 .flex-wrp {
   display: flex;
 }
@@ -10,31 +14,40 @@
 }
 
 .flex-item {
-  width: 45%;
-  /*height: 150px;*/
-  margin: 7px;
+  width: 330rpx;
+  height: 550rpx;
+  margin: 15rpx;
 }
 
 .series {
-  height: 150px;
+  background-color: #fff;
+}
+
+.poster {
+  height: 400rpx;
   color: #000;
-  background-color:#ff0; 
+  background-color: #ff0;
+}
+
+.title {
+  height: 150rpx;
+  padding: 30rpx 15rpx 15rpx 15rpx;
 }
 
 .name {
-  position: relative;
-  left: 20px;
-  top: 120px;
-}
-
-.after {
-  position: relative;
-  left: 220px;
+  color: #000;
 }
 
 .chapter {
-  position: relative;
-  left: 170px;
-  top: 120px;
+  color: #626d83;
 }
 
+.tips {
+  position: relative;
+  top: -210rpx;
+  left: 110rpx;
+  background-color: #f00;
+  width: 100rpx;
+  height: 30rpx;
+  border-radius: 5rpx;
+}
